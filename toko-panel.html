@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Panel Kingzlutz</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-image: url('https://files.catbox.moe/0kc0k4.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4CAF50;
+        }
+        
+        h1 {
+            color: #4CAF50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .product-category {
+            margin-bottom: 30px;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .product-card {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 8px;
+            padding: 15px;
+            transition: transform 0.3s;
+            border: 1px solid #333;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .product-title {
+            font-size: 1.2em;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        
+        .product-price {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        
+        .payment-section {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        
+        .payment-method {
+            margin-top: 15px;
+        }
+        
+        .qris-image {
+            max-width: 200px;
+            margin-top: 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+        }
+        
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+        }
+        
+        @media (max-width: 768px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TOKO PANEL KINGZLUTZ</h1>
+            <p>Jual Panel Berkualitas dengan Harga Terjangkau</p>
+        </header>
+        
+        <div class="contact-info">
+            <h2>Kontak Admin</h2>
+            <p>WhatsApp: <a href="https://wa.me/6289512593943" style="color: #4CAF50;">089512593943</a></p>
+            <p>Telegram: <a href="https://t.me/kingzlutz" style="color: #4CAF50;">t.me/kingzlutz</a></p>
+            <a href="https://wa.me/6289512593943" class="whatsapp-btn">Hubungi via WhatsApp</a>
+        </div>
+        
+        <div class="product-category">
+            <h2>PANEL PRIVATE</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-title">1GB</div>
+                    <div class="product-price">Rp 2.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Panel%20Private%201GB%20Rp%202.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">2GB</div>
+                    <div class="product-price">Rp 4.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Panel%20Private%202GB%20Rp%204.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">3GB</div>
+                    <div class="product-price">Rp 6.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Panel%20Private%203GB%20Rp%206.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">4GB</div>
+                    <div class="product-price">Rp 8.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Panel%20Private%204GB%20Rp%208.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+            </div>
+            <p>Dan seterusnya (harga bertambah Rp 2.000 per 1GB)</p>
+        </div>
+        
+        <div class="product-category">
+            <h2>PANEL PUBLIC</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-title">1GB</div>
+                    <div class="product-price">Rp 1.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Panel%20Public%201GB%20Rp%201.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">2GB</div>
+                    <div class="product-price">Rp 2.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Panel%20Public%202GB%20Rp%202.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">3GB</div>
+                    <div class="product-price">Rp 3.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Panel%20Public%203GB%20Rp%203.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">4GB</div>
+                    <div class="product-price">Rp 4.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Panel%20Public%204GB%20Rp%204.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+            </div>
+            <p>Dan seterusnya (harga bertambah Rp 1.000 per 1GB)</p>
+        </div>
+        
+        <div class="product-category">
+            <h2>PAKET KHUSUS</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-title">Admin Panel</div>
+                    <div class="product-price">Rp 10.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Admin%20Panel%20Rp%2010.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">PT Panel</div>
+                    <div class="product-price">Rp 15.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20PT%20Panel%20Rp%2015.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">Owner Panel</div>
+                    <div class="product-price">Rp 20.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Owner%20Panel%20Rp%2020.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">Tangan Kanan Panel</div>
+                    <div class="product-price">Rp 25.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Tangan%20Kanan%20Panel%20Rp%2025.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-title">Tangan Kiri Panel</div>
+                    <div class="product-price">Rp 30.000</div>
+                    <a href="https://wa.me/6289512593943?text=Saya%20mau%20beli%20Tangan%20Kiri%20Panel%20Rp%2030.000" class="whatsapp-btn">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="payment-section">
+            <h2>Konfirmasi Pembayaran</h2>
+            <div class="payment-method">
+                <h3>DANA</h3>
+                <p>Nomor: 089649925248</p>
+            </div>
+            <div class="payment-method">
+                <h3>QRIS</h3>
+                <img src="https://files.catbox.moe/corvdr.jpg" alt="QRIS Payment" class="qris-image">
+                <p>Scan QR code di atas untuk pembayaran</p>
+            </div>
+            <p><strong>Harap konfirmasi pembayaran ke admin setelah transfer!</strong></p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2023 Toko Panel Kingzlutz. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
